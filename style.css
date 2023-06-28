@@ -1,0 +1,30 @@
+table {
+    text-align: center;
+    line-height: 1.7em;
+    border: solid 0.1em black;
+    border-collapse: collapse;
+    width: 800px;
+    height: auto;
+    min-height: 50%;
+    font-size: 1.5em;
+    margin: 2em auto;
+}
+
+tbody>tr:nth-child(2n) {
+    background-color: rgb(214, 214, 214);
+}
+
+thead>tr:first-child, tr>td:first-child {
+    background-color: cyan;
+    font-weight: 600;
+    position: -webkit-sticky; /* for Safari */
+    position: sticky;
+}
+
+tr>td:first-child {
+    left: 0;    
+}
+
+thead>tr:first-child {
+    top: 0;
+}
